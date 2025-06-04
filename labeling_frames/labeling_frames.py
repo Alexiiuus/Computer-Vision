@@ -203,7 +203,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--bbox_configuration_path",
         type=str,
-        required=True,
+        default="out.json",
         help="Path where the bounding box annotations will be saved as a JSON file.",
     )
     arguments = parser.parse_args()
